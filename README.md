@@ -1,6 +1,6 @@
 
 ```
-Assignment 02 Stater
+Assignment 03 Stater
 ├─ css
 │  ├─ font.css
 │  └─ style.css
@@ -43,6 +43,6 @@ Assignment 02 Stater
 │  ├─ project_1.png
 │  ├─ project_2.png
 │  └─ project_3.png
-└─ index.html
+└─ digitalcv.html
 
 ```
