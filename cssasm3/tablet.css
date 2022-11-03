@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  li.nav-item {
+    padding-right: 1rem;
+  }
+  .name1 {
+    display: none;
+  }
+  #avatar {
+    display: none;
+  }
+  .banner {
+    max-height: 50vh;
+    background-position: center;
+  }
+  div.ex1,
+  .ex2,
+  .ex3,
+  .ex4,
+  .ex5,
+  .ex6 {
+    height: auto;
+  }
+  /* award */
+  .certificate1 {
+    display: block;
+    height: auto;
+    font-size: 12px;
+  }
+  .ic-project {
+    padding-left: 80px;
+  }
+}

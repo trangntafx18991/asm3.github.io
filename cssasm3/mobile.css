@@ -1,0 +1,60 @@
+@media (max-width: 767px) {
+  ul.d-flex {
+    flex-direction: column;
+  }
+  li.nav-item {
+    border: 0px;
+  }
+
+  section.container {
+    margin-left: 12px;
+  }
+  .row > * {
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x) * 1);
+    padding-left: calc(var(--bs-gutter-x) * 1);
+    margin-top: var(--bs-gutter-y);
+  }
+
+  /* award */
+  .certificate .col-md-6 .certificate1 {
+    display: block;
+    font-size: 11px;
+  }
+  .name1 {
+    display: none;
+  }
+  .banner {
+    max-height: 50vh;
+    background-position: center;
+  }
+  .img-sertificate2 {
+    border-left: 0;
+  }
+  .nav-project li {
+    display: block;
+  }
+  .project-time {
+    padding: 10px 25px;
+    font-size: 12px;
+    color: #f7f7f7;
+    width: 38%;
+    background-color: #228be6;
+    border-radius: 35px;
+  }
+  span {
+    display: none;
+  }
+  .info span {
+    display: contents;
+  }
+  ul li .p-3 {
+    display: inline;
+  }
+  .nav {
+    flex-direction: row !important;
+  }
+  .nav li {
+    width: fit-content;
+  }
+}

@@ -1,0 +1,45 @@
+@media (min-width: 992px) {
+  ul.d-flex {
+    margin-left: 20px;
+    padding-right: 1rem;
+  }
+  li.nav-item {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .name1 {
+    margin-left: 70px;
+    margin-right: 70px;
+  }
+  /* vị trí ảnh tròn  */
+  #avatar {
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 42%;
+    z-index: 1;
+  }
+  /* kích thước và border ảnh tròn */
+  .imgava {
+    width: 160px;
+    height: 180px;
+    border-radius: 50%;
+    border: 8px solid #fff;
+  }
+  .bg-grey {
+    background: #f7f7f7;
+  }
+  body {
+    color: #343a40;
+    margin: 0;
+  }
+  section > .container {
+    width: 1170px;
+    margin: auto;
+    display: block;
+
+    padding: 30px 50px;
+  }
+  .container-2 .knlv {
+    display: grid;
+  }
+}

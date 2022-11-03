@@ -1,0 +1,46 @@
+@media (max-width: 768px) {
+  .container,
+  .content-goals,
+  .content-team,
+  .content-timeline,
+  .content-primary,
+  .content-scopes {
+    display: block;
+    line-height: 2;
+    font-size: 18px;
+    padding-bottom: 40px;
+  }
+  .content-timeline:nth-child(odd) {
+    border-bottom: 2px dotted #3c92e2;
+  }
+  .content-timeline:nth-child(even) {
+    border-bottom: 2px dotted #3c92e2;
+  }
+
+  .goals,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    margin: 30px;
+  }
+  .logo {
+    text-align: center;
+    font-size: 200%;
+  }
+  .content-timeline .logo {
+    color: aliceblue;
+    background: #8f80d3;
+    border-radius: 50%;
+    border: 2px solid #3b2f6e;
+    text-align: left;
+    margin-right: 72%;
+    margin-left: 0%;
+    margin-bottom: 5%;
+    font-size: 180%;
+    padding: 10%;
+  }
+  .content-scope .content-name {
+    padding-bottom: 10px;
+  }
+}
